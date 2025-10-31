@@ -42,7 +42,7 @@ Swagger / OpenAPI
 
 RESTful API Architecture
 
-##Frontend:
+## Frontend:
 
 React + TypeScript
 
