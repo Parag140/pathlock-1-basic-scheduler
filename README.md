@@ -99,4 +99,33 @@ Services/ → Handles logic and task scheduling
 
 frontend/src/components → Contains React components for UI
 
-App.tsx → Main app orchestrating components and API calls
+App.tsx → Main app orchestrating components and API call
+
+## ui screenshots
+1. Task manager dashboard
+ <p align="center">
+<img width="1826" height="1432" alt="image" src="https://github.com/user-attachments/assets/32f4bd86-87b8-4eb0-a208-7cef6c51cc3c" />
+
+</p>
+2. task added
+ <p align="center">
+<img width="1444" height="1136" alt="image" src="https://github.com/user-attachments/assets/b6af7ab6-17e4-455b-826a-48b103f0ff23" />
+</p>
+3. active tasks
+<p align="center">
+<img width="1386" height="1264" alt="image" src="https://github.com/user-attachments/assets/fddfc990-eb7e-4b0d-970d-3867b0462a46" />
+
+</p>
+
+4. completed tasks
+ <p align="center">
+<img width="1422" height="1298" alt="image" src="https://github.com/user-attachments/assets/1cc0dd94-e9ea-44ed-83ef-58f56616fdfe" />
+</p>
+
+5. Localstorage having tasks data so on reload we cant lost 
+ <p align="center">
+<img width="2880" height="1640" alt="image" src="https://github.com/user-attachments/assets/8dd7d801-9a30-4edc-9528-5682c6b396b8" />
+</p>
+
+
+
