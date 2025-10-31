@@ -30,7 +30,7 @@ frontend/
 ├── tailwind.config.js                # Tailwind setup
 └── vite.config.ts                    # Vite configuration
 
-##Tech Stack
+## Tech Stack
 
 ##Backend:
 
