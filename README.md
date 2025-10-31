@@ -30,9 +30,9 @@ frontend/
 ├── tailwind.config.js                # Tailwind setup
 └── vite.config.ts                    # Vite configuration
 
-Tech Stack
+##Tech Stack
 
-Backend:
+##Backend:
 
 ASP.NET Core 8
 
@@ -42,7 +42,7 @@ Swagger / OpenAPI
 
 RESTful API Architecture
 
-Frontend:
+##Frontend:
 
 React + TypeScript
 
@@ -52,10 +52,11 @@ Vite
 
 Fetch API for backend communication
 
-How to Run the Project
+## How to Run the Project
  1. Run the Backend (ASP.NET Core API)
-cd backend/TaskManagement
-dotnet run
+      ```bash
+    cd backend/TaskManagement
+    dotnet run
 
 
 This will start the backend server (default: http://localhost:5298 or as configured in launchSettings.json).
@@ -64,28 +65,30 @@ Once running, you can test API routes at:
  http://localhost:5298/swagger
 
  2. Run the Frontend (React App)
-cd frontend
-npm install
-npm run dev
+    ```bash
+    cd frontend
+    npm install
+    npm run dev
 
 
-Frontend runs on default port 5173:
+ Frontend runs on default port 5173:
  Open in your browser: http://localhost:5173
 
- API Endpoints (Examples)
-Endpoint	Method	Description
-/api/v1/projects/{projectId}/schedule	POST	Schedule tasks and get recommended order
-/api/v1/tasks	GET	Get all tasks
-/api/v1/tasks	POST	Add a new task
- Features
+ ## API Endpoints (Examples)
 
- Add, update, and delete tasks
- Intelligent task scheduling based on dependencies
- Backend with strong typing and modular service layer
- Responsive and modern frontend with Tailwind
- Clear separation of concerns between API and UI
+1. /api/v1/projects/{projectId}/schedule	POST	Schedule tasks and get recommended order
+2. /api/v1/tasks	GET	Get all tasks
+3. /api/v1/tasks	POST	Add a new task
+ ## Features
 
- Folder Explanation
+ 1. Add, update, and delete tasks
+
+ 2.Intelligent task scheduling based on dependencies
+3. Backend with strong typing and modular service layer
+4. Responsive and modern frontend with Tailwind
+ 5.Clear separation of concerns between API and UI
+
+ ## Folder Explanation
 
 Controllers/ → Defines all API endpoints
 
