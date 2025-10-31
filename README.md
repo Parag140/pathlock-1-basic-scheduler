@@ -32,7 +32,7 @@ frontend/
 
 ## Tech Stack
 
-##Backend:
+## Backend:
 
 ASP.NET Core 8
 
@@ -76,7 +76,7 @@ Once running, you can test API routes at:
 
  ## API Endpoints (Examples)
 
-1. /api/v1/projects/{projectId}/schedule	POST	Schedule tasks and get recommended order
+1. /api/v1/projects/{projectId}/schedule	POST	
 2. /api/v1/tasks	GET	Get all tasks
 3. /api/v1/tasks	POST	Add a new task
  ## Features
