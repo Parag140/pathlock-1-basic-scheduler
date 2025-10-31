@@ -62,7 +62,7 @@ Fetch API for backend communication
 This will start the backend server (default: http://localhost:5093 or as configured in launchSettings.json).
 
 Once running, you can test API routes at:
- http://localhost:5298/swagger
+ http://localhost:5093/swagger
 
  2. Run the Frontend (React App)
     ```bash
