@@ -59,7 +59,7 @@ Fetch API for backend communication
     dotnet run
 
 
-This will start the backend server (default: http://localhost:5298 or as configured in launchSettings.json).
+This will start the backend server (default: http://localhost:5093 or as configured in launchSettings.json).
 
 Once running, you can test API routes at:
  http://localhost:5298/swagger
