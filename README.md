@@ -1,34 +1,35 @@
-backend/
-└── TaskManagement/
-    ├── Controllers/
-    │   └── TasksController.cs        # Handles API endpoints for tasks
-    ├── Models/
-    │   └── TaskItem.cs               # Defines the TaskItem model
-    ├── Services/
-    │   ├── ITaskService.cs           # Interface for task services
-    │   └── TaskService.cs            # Business logic for tasks
-    ├── Properties/
-    │   └── launchSettings.json       # Launch configuration
-    ├── Program.cs                    # Entry point for ASP.NET Core
-    ├── appsettings.json              # Default configuration
-    ├── appsettings.Development.json  # Dev environment configuration
-    └── TaskManagement.csproj         # .NET project file
-
-frontend/
-├── src/
-│   ├── components/
-│   │   ├── AddTask.tsx               # Form to add new tasks
-│   │   ├── TaskItem.tsx              # UI component for a single task
-│   │   └── TaskList.tsx              # Lists all tasks
-│   ├── App.tsx                       # Main React component
-│   ├── App.css                       # Global styles
-│   ├── main.tsx                      # React entry point
-│   └── index.css                     # Tailwind styles
-├── public/
-│   └── vite.svg
-├── package.json                      # Frontend dependencies
-├── tailwind.config.js                # Tailwind setup
-└── vite.config.ts                    # Vite configuration
+            ```
+            backend/
+            └── TaskManagement/
+                ├── Controllers/
+                │   └── TasksController.cs        # Handles API endpoints for tasks
+                ├── Models/
+                │   └── TaskItem.cs               # Defines the TaskItem model
+                ├── Services/
+                │   ├── ITaskService.cs           # Interface for task services
+                │   └── TaskService.cs            # Business logic for tasks
+                ├── Properties/
+                │   └── launchSettings.json       # Launch configuration
+                ├── Program.cs                    # Entry point for ASP.NET Core
+                ├── appsettings.json              # Default configuration
+                ├── appsettings.Development.json  # Dev environment configuration
+                └── TaskManagement.csproj         # .NET project file
+            
+            frontend/
+            ├── src/
+            │   ├── components/
+            │   │   ├── AddTask.tsx               # Form to add new tasks
+            │   │   ├── TaskItem.tsx              # UI component for a single task
+            │   │   └── TaskList.tsx              # Lists all tasks
+            │   ├── App.tsx                       # Main React component
+            │   ├── App.css                       # Global styles
+            │   ├── main.tsx                      # React entry point
+            │   └── index.css                     # Tailwind styles
+            ├── public/
+            │   └── vite.svg
+            ├── package.json                      # Frontend dependencies
+            ├── tailwind.config.js                # Tailwind setup
+            └── vite.config.ts                    # Vite configuration
 
 ## Tech Stack
 
